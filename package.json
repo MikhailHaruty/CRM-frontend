@@ -1,0 +1,21 @@
+{
+  "name": "crm-frontend",
+  "version": "1.0.0",
+  "description": "CRM for my porfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build:dev": "env NODE_ENV=development webpack --config webpack.config.js",
+    "build:prod": "env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "author": "MikhailHaruty <harutymikhail@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "eslint": "^8.38.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
